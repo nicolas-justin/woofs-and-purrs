@@ -1,0 +1,19 @@
+import PropTypes from 'prop-types';
+
+import * as S from './styles';
+
+function {{pascalCase name}}({ children }) {
+  return (
+    <S.Wrapper>
+      <h1>{{pascalCase name}}</h1>
+
+      {children}
+    </S.Wrapper>
+  );
+}
+
+{{pascalCase name}}.propTypes = {
+  children: PropTypes.node,
+};
+
+export default {{pascalCase name}};
