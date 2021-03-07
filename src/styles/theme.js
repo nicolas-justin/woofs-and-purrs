@@ -19,4 +19,9 @@ export default {
     ice: '#f5f4f6',
     white: '#fff',
   },
+  spacings: {
+    xsmall: '0.8rem',
+    small: '1.6rem',
+    normal: '2.4rem',
+  },
 };
