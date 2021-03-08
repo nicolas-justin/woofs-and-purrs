@@ -10,6 +10,7 @@
     "generate": "yarn plop --plopfile generators/plopfile.js"
   },
   "dependencies": {
+    "@styled-icons/feather": "^10.18.0",
     "next": "10.0.8",
     "normalize.css": "^8.0.1",
     "prop-types": "^15.7.2",

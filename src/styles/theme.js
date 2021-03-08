@@ -30,4 +30,10 @@ export default {
     large: '1170px',
     huge: '1440px',
   },
+  layers: {
+    menu: 20,
+  },
+  transitions: {
+    faster: '125ms ease-in-out',
+  },
 };
