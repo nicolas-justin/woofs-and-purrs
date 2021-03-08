@@ -24,4 +24,10 @@ export default {
     small: '1.6rem',
     normal: '2.4rem',
   },
+  breakpoints: {
+    small: '450px',
+    medium: '768px',
+    large: '1170px',
+    huge: '1440px',
+  },
 };
