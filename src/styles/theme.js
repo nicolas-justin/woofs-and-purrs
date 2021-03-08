@@ -33,6 +33,10 @@ export default {
   layers: {
     menu: 20,
   },
+  grid: {
+    container: '92.0rem',
+    gutter: '2.4rem',
+  },
   transitions: {
     faster: '125ms ease-in-out',
   },
