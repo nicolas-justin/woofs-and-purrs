@@ -24,6 +24,7 @@ export const Wrapper = styled.button`
     border-radius: 999em;
     outline: 0;
     border: 0;
+    white-space: nowrap;
     color: ${theme.colors.white};
     background: ${theme.colors.primary};
     -webkit-tap-highlight-color: transparent;
