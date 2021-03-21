@@ -19,10 +19,13 @@ export default {
   },
   colors: {
     secondary: '#575452',
+    revolver: '#38383a',
+    charcoal: '#453f3f',
     primary: '#ffa100',
     oasis: '#fff1c6',
     black: '#2c1439',
     gray: '#c4c4c4',
+    paco: '#443c38',
     ice: '#f5f4f6',
     white: '#fff',
   },
@@ -30,6 +33,7 @@ export default {
     xsmall: '0.8rem',
     small: '1.6rem',
     normal: '2.4rem',
+    large: '3.2rem',
   },
   breakpoints: {
     small: '450px',
@@ -41,7 +45,7 @@ export default {
     menu: 20,
   },
   grid: {
-    container: '92.0rem',
+    container: '114rem',
     gutter: '2.4rem',
   },
   transitions: {
