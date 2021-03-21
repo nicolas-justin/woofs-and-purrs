@@ -1,12 +1,22 @@
 import styled, { css } from 'styled-components';
 
+import Container from 'components/Container';
+
 export const Wrapper = styled.div`
   ${({ theme }) => css`
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: ${theme.layers.menu};
     padding: ${theme.spacings.small} 0;
     user-select: none;
+
+    ${Container} {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
   `}
 `;
 
