@@ -39,7 +39,7 @@ export const MenuLink = styled.a`
     -webkit-user-drag: none;
 
     &.active {
-      color: ${theme.colors.primary};
+      color: ${theme.colors.primary} !important;
     }
   `}
 `;

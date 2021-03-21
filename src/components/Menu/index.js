@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
-import Link from 'next/link';
 
 import { Menu as MenuIcon, X as CloseIcon } from '@styled-icons/feather';
 
@@ -8,6 +7,7 @@ import Logo from 'components/Logo';
 import MediaMatch from 'components/MediaMatch';
 import Button from 'components/Button';
 import Container from 'components/Container';
+import ActiveLink from 'components/ActiveLink';
 
 import * as S from './styles';
 
@@ -44,21 +44,21 @@ function Menu() {
 
         <MediaMatch greaterThan="medium">
           <S.MenuNav aria-label="Menu" white={isHome}>
-            <Link href="/" passHref>
+            <ActiveLink href="/" passHref>
               <S.MenuLink draggable="false">Home</S.MenuLink>
-            </Link>
+            </ActiveLink>
 
-            <Link href="/who-we-are" passHref>
+            <ActiveLink href="/who-we-are" passHref>
               <S.MenuLink draggable="false">Who We Are</S.MenuLink>
-            </Link>
+            </ActiveLink>
 
-            <Link href="/services" passHref>
+            <ActiveLink href="/services" passHref>
               <S.MenuLink draggable="false">Services</S.MenuLink>
-            </Link>
+            </ActiveLink>
 
-            <Link href="/get-in-touch" passHref>
+            <ActiveLink href="/get-in-touch" passHref>
               <S.MenuLink draggable="false">Get In Touch</S.MenuLink>
-            </Link>
+            </ActiveLink>
 
             <Button title="Download App" />
           </S.MenuNav>
@@ -74,29 +74,29 @@ function Menu() {
             <CloseIcon />
           </S.IconWrapper>
 
-          <Link href="/" passHref>
+          <ActiveLink href="/" passHref>
             <S.MenuLink draggable="false" onClick={handleCloseMenu}>
               Home
             </S.MenuLink>
-          </Link>
+          </ActiveLink>
 
-          <Link href="/who-we-are" passHref>
+          <ActiveLink href="/who-we-are" passHref>
             <S.MenuLink draggable="false" onClick={handleCloseMenu}>
               Who We Are
             </S.MenuLink>
-          </Link>
+          </ActiveLink>
 
-          <Link href="/services" passHref>
+          <ActiveLink href="/services" passHref>
             <S.MenuLink draggable="false" onClick={handleCloseMenu}>
               Services
             </S.MenuLink>
-          </Link>
+          </ActiveLink>
 
-          <Link href="/get-in-touch" passHref>
+          <ActiveLink href="/get-in-touch" passHref>
             <S.MenuLink draggable="false" onClick={handleCloseMenu}>
               Get In Touch
             </S.MenuLink>
-          </Link>
+          </ActiveLink>
 
           <Button title="Download App" />
         </S.MenuFull>
