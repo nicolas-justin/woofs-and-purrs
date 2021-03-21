@@ -1,13 +1,12 @@
-import PropTypes from 'prop-types';
+import styled, { css } from 'styled-components';
 
-import * as S from './styles';
+const Wrapper = styled.div`
+  ${({ theme }) => css`
+    width: 100%;
+    max-width: ${theme.grid.container};
+    padding: 0 ${theme.grid.gutter};
+    margin: 0 auto;
+  `};
+`;
 
-function Container({ children }) {
-  return <S.Wrapper>{children}</S.Wrapper>;
-}
-
-Container.propTypes = {
-  children: PropTypes.node.isRequired,
-};
-
-export default Container;
+export default Wrapper;
