@@ -28,7 +28,7 @@ export default css`
       overscroll-behavior: contain;
       text-rendering: optimizeLegibility;
       color: ${theme.colors.secondary};
-      font-family: ${theme.font.family};
+      font-family: ${theme.font.family.nunito};
       font-size: ${theme.font.size.body};
       font-weight: ${theme.font.weight.normal};
       background: ${theme.colors.white};

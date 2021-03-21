@@ -3,12 +3,19 @@ export default {
     size: {
       root: '62.5%',
       body: '1.6rem',
+      large: '3.6rem',
+      xlarge: '4.2rem',
+      xxlarge: '5.8rem',
+      huge: '7.2rem',
     },
     weight: {
       normal: 400,
       bold: 700,
     },
-    family: 'Nunito, Poppins, Roboto, sans-serif',
+    family: {
+      nunito: 'Nunito, Poppins, Roboto, sans-serif',
+      changaOne: 'Changa One, Nunito, Poppins, Roboto, sans-serif',
+    },
   },
   colors: {
     secondary: '#575452',
