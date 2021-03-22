@@ -1,15 +1,15 @@
 import Head from 'next/head';
 
+import HomeTemplate from 'templates/Home';
+
 function Home() {
   return (
     <>
       <Head>
-        <title>Home page</title>
+        <title>Home: Woofs &amp; Purrs</title>
       </Head>
 
-      <main>
-        <h1>Home page</h1>
-      </main>
+      <HomeTemplate />
     </>
   );
 }
