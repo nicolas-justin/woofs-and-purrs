@@ -7,6 +7,8 @@ import 'normalize.css';
 import GlobalStyles from 'styles/global';
 import theme from 'styles/theme';
 
+import BaseTemplate from 'templates/Base';
+
 function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme}>
@@ -18,7 +20,9 @@ function MyApp({ Component, pageProps }) {
 
       <GlobalStyles />
 
-      <Component {...pageProps} />
+      <BaseTemplate>
+        <Component {...pageProps} />
+      </BaseTemplate>
     </ThemeProvider>
   );
 }
