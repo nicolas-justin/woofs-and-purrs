@@ -21,11 +21,11 @@ export const Wrapper = styled.div`
 `;
 
 export const IconWrapper = styled.div`
-  ${({ theme }) => css`
-    color: ${theme.colors.white};
+  ${({ theme, white }) => css`
     cursor: pointer;
     height: 4rem;
     width: 4rem;
+    color: ${white ? theme.colors.white : theme.colors.secondary};
   `}
 `;
 

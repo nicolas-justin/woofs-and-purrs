@@ -37,6 +37,7 @@ function Menu() {
             aria-label="Open Menu"
             role="button"
             tabIndex="0"
+            white={isHome}
           >
             <MenuIcon />
           </S.IconWrapper>
