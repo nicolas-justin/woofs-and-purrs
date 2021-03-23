@@ -30,6 +30,11 @@ export const Wrapper = styled.button`
     -webkit-tap-highlight-color: transparent;
 
     span {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.5em;
+      height: 1.5em;
       margin-right: 0;
       margin-left: ${theme.spacings.small};
     }
