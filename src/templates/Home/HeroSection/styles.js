@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
     display: flex;
     align-items: center;
     min-height: 100vh;
-    padding-top: 8.75rem;
+    padding: ${theme.spacings.xhuge} 0;
     background: linear-gradient(
       45deg,
       ${theme.colors.paco},

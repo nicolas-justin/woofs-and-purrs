@@ -34,6 +34,8 @@ export default {
     small: '1.6rem',
     normal: '2.4rem',
     large: '3.2rem',
+    huge: '8.75rem',
+    xhuge: '12.5rem',
   },
   breakpoints: {
     small: '450px',
